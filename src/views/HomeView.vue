@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
@@ -6,6 +7,7 @@
 </template>
 
 <script>
+
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
 
@@ -13,6 +15,9 @@ export default {
   name: "HomeView",
   components: {
     HelloWorld,
+  },
+  created() {
+    console.log("aa");
   },
 };
 </script>

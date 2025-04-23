@@ -2,11 +2,20 @@
   <div id="app">
     <nav>
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/openDynamicPage">openDynamicPage</router-link>
     </nav>
     <router-view />
   </div>
 </template>
+
+<script>
+export default {
+  created() {
+    console.log("dada");
+  },
+};
+</script>
 
 <style>
 #app {

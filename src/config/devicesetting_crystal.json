@@ -1,0 +1,94 @@
+{
+  "title": "动态页面",
+  "tabs": [
+    "设备",
+    "通用",
+    "游戏",
+    "高级",
+    "技术支持"
+  ],
+  "sections": [
+    [
+      {
+        "type": "card",
+        "title": "设备信息",
+        "children": [
+          { 
+            "type": "detailGreenBtn", 
+            "typeName": "headsetVersion"
+          },
+          { 
+            "type": "detailGreenBtn", 
+            "typeName": "leftHandleVersion"
+          },
+          { 
+            "type": "detailGreenBtn", 
+            "typeName": "rightHandleVersion"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title": "定位",
+        "children": [
+          { 
+            "type": "detailTextClick", 
+            "typeName": "positioningMode"
+          },
+          { 
+            "type": "detailTextClick", 
+            "typeName": "indoorLightingFrequency"
+          },
+          { 
+            "type": "detailSwitch", 
+            "typeName": "reclineMode"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title": "IPD",
+        "children": [
+          { 
+            "type": "detailTextClick", 
+            "typeName": "IPDValue"
+          },
+          { 
+            "type": "detailSwitch", 
+            "typeName": "automaticIPD"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "card",
+        "title": "刷新率",
+        "children": [
+          { 
+            "type": "detailTextClick", 
+            "typeName": "model"
+          },
+          { 
+            "type": "detailTextClick", 
+            "typeName": "refreshRate"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title": "智能补帧",
+        "children": [
+          { 
+            "type": "detailSwitch", 
+            "typeName": "turnOnSmartFramePatching"
+          },
+          { 
+            "type": "detailSwitch", 
+            "typeName": "LockFrameRateToHalfRefreshRate"
+          }
+        ]
+      }
+    ]
+  ]
+}
